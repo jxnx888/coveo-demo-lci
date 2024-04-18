@@ -9,16 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@coveo/headless": "^2.61.0",
+    "@mantine/core": "^7.8.0",
+    "@mantine/form": "^7.8.0",
+    "@mantine/hooks": "^7.8.0",
+    "clsx": "^2.1.0",
+    "lodash": "^4.17.21",
+    "next": "14.2.2",
+    "postcss": "^8.4.38",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/lodash": "^4.17.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.2"
-  }
+    "eslint-config-next": "14.2.2",
+    "typescript": "^5"
+  },
+  "browserslist": [">0.3%", "not dead", "not op_mini all"]
 }

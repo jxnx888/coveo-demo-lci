@@ -1,0 +1,36 @@
+.middleTabs{
+  align-items: center;
+  display: flex;
+  max-width: none;
+  overflow-x: auto;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  overflow-y: hidden;
+  padding: 1.2px 0;
+}
+.middleTabs::-webkit-scrollbar {
+   height: 0;
+   width: 0;
+ }
+.tab {
+  position: relative;
+    padding: 0 1.2rem;
+}
+.tab::after{
+  bottom: calc(12px * -1); /* -12px */
+  content: '';
+  display: block;
+  height: 0.3rem;
+  left: 0;
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0.38, 0.9);
+  width: 100%;
+}
+.tab:hover::after {
+   transform: scaleY(1);
+ }
+
+.tab__active .tab::after{
+  transform: scaleY(1);
+}

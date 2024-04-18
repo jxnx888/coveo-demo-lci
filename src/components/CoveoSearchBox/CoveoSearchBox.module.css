@@ -1,0 +1,12 @@
+.searchBox{
+    display: flex;
+}
+.form :global div.mantine-TextInput-root{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form :global div.mantine-TextInput-wrapper{
+    width: 200px;
+}

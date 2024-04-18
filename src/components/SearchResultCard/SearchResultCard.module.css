@@ -1,0 +1,11 @@
+.card {
+    background: #e0e0e0;
+    margin: 15px;
+}
+.inner, .moleculeCardInner{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
